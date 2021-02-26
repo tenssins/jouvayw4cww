@@ -28,12 +28,32 @@
             >
                 <a-image
                     src="assets/earth.png"
-                    scale="1 1 1"
+                    scale="2 1 1"
                     class="clickable"
                     rotation="-90 0 0"
                     gesture-handler
                 ></a-image>
             </a-marker>
+            
+             <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/Marker O.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerB"
+            >
+                <a-image
+                    src="assets/love.png"
+                    scale="2 1 1"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+            </a-marker>
+            
 
             <a-entity camera></a-entity>
         </a-scene>
