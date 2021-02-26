@@ -28,7 +28,7 @@
             >
                 <a-image
                     src="assets/earth.png"
-                    scale="2 1 1"
+                    scale="1 1 2"
                     class="clickable"
                     rotation="-90 0 0"
                     gesture-handler
@@ -47,12 +47,31 @@
             >
                 <a-image
                     src="assets/love.png"
-                    scale="2 1 1"
+                    scale="1 1 2"
                     class="clickable"
                     rotation="-90 0 0"
                     gesture-handler
                 ></a-image>
-            </a-marker>
+            </a-marker>    
+            
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/Marker U.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"
+            >
+                <a-image
+                    src="assets/Trust.png"
+                    scale="1 1 2"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+            </a-marker
             
 
             <a-entity camera></a-entity>
