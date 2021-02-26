@@ -28,7 +28,7 @@
             >
                 <a-image
                     src="assets/earth.png"
-                    scale="1 1 2"
+                    scale="1 2 1"
                     class="clickable"
                     rotation="-90 0 0"
                     gesture-handler
@@ -47,7 +47,7 @@
             >
                 <a-image
                     src="assets/love.png"
-                    scale="1 1 2"
+                    scale="1 2 1"
                     class="clickable"
                     rotation="-90 0 0"
                     gesture-handler
@@ -62,16 +62,73 @@
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
-                id="markerA"
+                id="markerC"
             >
                 <a-image
                     src="assets/trust.png"
-                    scale="1 1 2"
+                    scale="1 2 1"
                     class="clickable"
                     rotation="-90 0 0"
                     gesture-handler
                 ></a-image>
-            </a-marker
+            </a-marker>
+            
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/Marker V.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerD"
+            >
+                <a-image
+                    src="assets/power.png"
+                    scale="1 2 1"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+            </a-marker>
+            
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/Marker A.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerE"
+            >
+                <a-image
+                    src="assets/heart.png"
+                    scale="1 2 1"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+            </a-marker>
+            
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/Marker Y.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerF"
+            >
+                <a-image
+                    src="assets/will.png"
+                    scale="1 2 1"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+            </a-marker>
             
 
             <a-entity camera></a-entity>
